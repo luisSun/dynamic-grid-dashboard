@@ -68,16 +68,6 @@ A simple and fun tool to generate classic-style *anime harem charts*, allowing c
 
 * ❗ Reset does **not** remove the number of created slots — it only clears the images.
 
----
-
-## 📛 Badges
-
-![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-![Copilot](https://img.shields.io/badge/Copilot-Enabled-blue?logo=githubcopilot)
-![Status](https://img.shields.io/badge/Status-In%20Development-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
