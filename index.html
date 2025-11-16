@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Anime Harem</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-modal.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="buttons">
+        <div class="header-buttons">
+            <button id="add-space">Add a Blanck Space</button>
+            <button id="toggle-theme">Dark Mode</button>
+            <button id="reset-chart">Reset Chart</button>
+            <button id="save-chart">Save as PNG</button>
+        </div>
+    </nav>
+    <div class="container-box">
+
+        <div id="container">        
+        
+        <div class="header-row">
+            <img src="resources/img/flogo.png" class="logo-aux left-logo">
+            <img src="resources/img/logo.png" class="logo center-logo">
+            <img src="resources/img/flogo.png" class="logo-aux right-logo">
+        </div>
+
+        <div id="harem-grid">
+            <!-- Slots iniciais -->
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+            <div class="harem-slot">
+                <div class="image-area"></div>
+                <button class="add-char-btn">+</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="upload-modal">
+        <div class="modal-content">
+            <h3>Escolha uma imagem</h3>
+            <img id="preview-image" src="" alt="Preview">
+            <input type="file" id="modal-file-input" accept="image/*" style="margin-bottom:10px">
+            <div>
+                <button id="confirm-upload">Confirmar</button>
+                <button id="cancel-upload">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
