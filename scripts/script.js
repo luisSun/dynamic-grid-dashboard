@@ -152,10 +152,12 @@ saveButton.addEventListener('click', () => {
 
     console.log('apertado votao')
 
-    html2canvas(containerBox).then(canvas => {
+    html2canvas(containerBox, {
+        scale: 2   // Aumenta a resolução (1 = padrão / 2 = HD / 3 = muito nítido)
+    }).then(canvas => {
         const link = document.createElement('a');
         link.download = 'my-anime-harem.png';
-        link.href = canvas.toDataURL();
+        link.href = canvas.toDataURL('image/png');
         link.click();
 
         elemsToHide.forEach(el => el.style.visibility = 'visible');
