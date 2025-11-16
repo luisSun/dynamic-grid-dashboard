@@ -37,6 +37,9 @@ A simple and fun tool to generate classic-style *anime harem charts*, allowing c
 
 ## 🧭 How to Use
 
+👉 **Try it here:** https://luissun.github.io/dynamic-grid-dashboard/
+
+
 1. Click **Add a Blank Space** to create new slots.
 2. Click the **+** inside any slot to upload an image.
 3. Select your file and preview it in the modal.
@@ -55,7 +58,7 @@ A simple and fun tool to generate classic-style *anime harem charts*, allowing c
 * 🪞 Better image fit handling during export
 * 🌐 Upload images via **URL**
 * 🎨 Full button CSS redesign
-* 🖼️ Fix main logo alignment
+* 🖼️ Fix main logo quality
 * 🌑 Create a *Dark Chart* version template
 * 🧩 More complete chart templates
 
